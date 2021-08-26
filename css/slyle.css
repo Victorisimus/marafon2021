@@ -73,6 +73,10 @@ body {
   width: 794px;
 }
 
+.menu {
+  padding: 0;
+}
+
 .menu_item {
   line-height: 19.5px;
   list-style: none;
@@ -118,10 +122,6 @@ body {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
-}
-
-.header_menu {
-  padding: 0;
 }
 
 .header_logo {
