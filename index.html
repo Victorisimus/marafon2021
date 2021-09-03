@@ -18,10 +18,14 @@
     <header class="header">
       <div class="wrapper">
         <nav class="header_menu">
-          <a href="#" class="header_logo"
-            ><img src="img/header-logo.svg" alt="Главная страница"
+          <a href="#" class="header_logo logo"
+            ><img
+              src="img/icons/header-logo.svg"
+              width="100"
+              height="32"
+              alt="Главная страница"
           /></a>
-          <ul class="header_menu menu">
+          <ul class="header_nav menu">
             <li class="menu_item"><a href="" class="menu_link">Каталог</a></li>
             <li class="menu_item">
               <a href="" class="menu_link">Доставка и оплата</a>
@@ -39,67 +43,103 @@
     <main>
       <section class="promo">
         <div class="wrapper">
-          <h1 class="promo_title">
-            Авторские букеты <span>в Петербурге</span>
-          </h1>
-          <p class="promo_text">
-            Оригинальные свежие букеты с доставкой по всему городу
-          </p>
-          <a href="" class="promo_link btn">Смотреть каталог</a>
-
-          <img
-            src="img/bouqet-1.jpg"
-            width="386"
-            height="404"
-            alt="Букет с розовыми тюльпанами"
-          />
-          <img
-            src="img/bouqet-2.jpg"
-            width="387"
-            height="420"
-            alt="Букет с бело-розовыми цветами"
-          />
+          <div class="promo_body">
+            <div class="promo_column">
+              <h1 class="promo_title title">
+                Авторские букеты <span>в Петербурге</span>
+              </h1>
+              <p class="promo_text">
+                Оригинальные свежие букеты с доставкой по всему городу
+              </p>
+              <a href="" class="promo_link btn">Смотреть каталог</a>
+            </div>
+            <div class="promo_column">
+              <img
+                src="img/content/bouqet-1.jpg"
+                width="386"
+                height="404"
+                alt="Букет с розовыми тюльпанами"
+              />
+            </div>
+            <div class="promo_column">
+              <img
+                src="img/content/bouqet-2.jpg"
+                width="387"
+                height="420"
+                alt="Букет с бело-розовыми цветами"
+              />
+            </div>
+          </div>
         </div>
       </section>
       <section class="features">
         <div class="wrapper">
           <dl class="features_list">
             <div class="features_item">
-              <dt class="features_title _icon-delivery">Быстрая доставка</dt>
-              <dd class="features_text">
-                Можем собрать букет и передать его в доставку всего за час.
-              </dd>
+              <img
+                src="/img/icons/delivery.svg"
+                width="82"
+                height="52"
+                alt="Иконка изображающая доставку"
+                class="features_images"
+              />
+              <div class="features_body">
+                <dt class="features_title">Быстрая доставка</dt>
+                <dd class="features_text">
+                  Можем собрать букет и передать его в доставку всего за час.
+                </dd>
+              </div>
             </div>
             <div class="features_item">
-              <dt class="features_title _icon-bouquet">Всегда свежие цветы</dt>
-              <dd class="features_text">
-                Тщательно следим за состоянием цветов, а опытные флористы
-                отбирают для букетов каждый цветок.
-              </dd>
+              <img
+                src="/img/icons/bouquet.svg"
+                width="52"
+                height="52"
+                alt="Иконка изображающая букет"
+                class="features_images"
+              />
+              <div class="features_body">
+                <dt class="features_title">Всегда свежие цветы</dt>
+                <dd class="features_text">
+                  Тщательно следим за состоянием цветов, а опытные флористы
+                  отбирают для букетов каждый цветок.
+                </dd>
+              </div>
             </div>
             <div class="features_item">
-              <dt class="features_title _icon-photo">Отправляем фото цветов</dt>
-              <dd class="features_text">
-                Перед доставкой сделаем фотографию букета и отправим вам.
-              </dd>
+              <img
+                src="/img/icons/photo.svg"
+                width="59"
+                height="52"
+                alt="Иконка изображающая фотоапарат"
+                class="features_images"
+              />
+              <div class="features_body">
+                <dt class="features_title">Отправляем фото цветов</dt>
+                <dd class="features_text">
+                  Перед доставкой сделаем фотографию букета и отправим вам.
+                </dd>
+              </div>
             </div>
           </dl>
         </div>
       </section>
       <section class="slider">
-        <div class="wrapper wrapper__min">
-          <h2 class="slider_title">Популярные букеты</h2>
+        <div class="wrapper wrapper__slider">
+          <h2 class="slider_title title">Популярные букеты</h2>
           <div class="slider_item">
-            <h3 class="slider_item-title">Букет «Нежность»</h3>
-            <p class="slider_item-text">
-              Элегантный букет, который станет отличным подарком на день
-              рождения или юбилей.
-            </p>
-            <p class="slider_item-size">30 × 40 см</p>
-            <p class="slider_item-price">3600 руб.</p>
-            <a href="#" class="slider_item-link btn">Заказать</a
-            ><img
-              src="img/bouqet-3.png"
+            <div class="slider_item-body">
+              <h3 class="slider_item-title">Букет «Нежность»</h3>
+              <p class="slider_item-text">
+                Элегантный букет, который станет отличным подарком на день
+                рождения или юбилей.
+              </p>
+              <p class="slider_item-size">30 × 40 см</p>
+              <p class="slider_item-price">3600 руб.</p>
+              <a href="#" class="slider_item-link btn">Заказать</a>
+            </div>
+            <img
+              src="img/content/bouqet-3.png"
               width="387"
               height="438"
               alt="Букет Нежность"
@@ -113,24 +153,26 @@
       </section>
       <section class="catalog">
         <div class="wrapper">
-          <div class="catalog_item item__wedding">
-            <div class="catalog_overlay">
-              <h3 class="catalog_item-title">Свадебные букеты</h3>
-              <p class="catalog_item-text">Букеты для невест</p>
+          <div class="catalog_list">
+            <div class="catalog_item item__wedding">
+              <div class="catalog_overlay">
+                <h3 class="catalog_item-title title">Свадебные букеты</h3>
+                <p class="catalog_item-text">Букеты для невест</p>
+              </div>
             </div>
-          </div>
 
-          <div class="catalog_item item__pion">
-            <div class="catalog_overlay">
-              <h3 class="catalog_item-title">Букеты с пионами</h3>
-              <p class="catalog_item-text">Букеты с сезонными пионами</p>
+            <div class="catalog_item item__pion">
+              <div class="catalog_overlay">
+                <h3 class="catalog_item-title title">Букеты с пионами</h3>
+                <p class="catalog_item-text">Букеты с сезонными пионами</p>
+              </div>
             </div>
-          </div>
 
-          <div class="catalog_item item__booket">
-            <div class="catalog_overlay">
-              <h3 class="catalog_item-title">Выбрать букет</h3>
-              <p class="catalog_item-text">Букеты в ассортименте</p>
+            <div class="catalog_item item__booket">
+              <div class="catalog_overlay">
+                <h3 class="catalog_item-title title">Выбрать букет</h3>
+                <p class="catalog_item-text">Букеты в ассортименте</p>
+              </div>
             </div>
           </div>
         </div>
@@ -139,15 +181,19 @@
         <div class="wrapper">
           <div class="sale_body">
             <div class="sale_description">
-              <h2 class="sale_title">Скидка 10% на первый заказ</h2>
-              <p class="sale_text">
-                Если заказываете у нас букет впервые — при оформлении заказа
-                введите промокод «Botanika2021» и получите скидку 10%.
-              </p>
+              <div class="sale_description-body">
+                <h2 class="sale_title title">
+                  Скидка 10% на&nbsp;первый заказ
+                </h2>
+                <p class="sale_text">
+                  Если заказываете у нас букет впервые —&nbsp;при оформлении
+                  заказа введите промокод «Botanika2021» и получите скидку 10%.
+                </p>
+              </div>
             </div>
             <div class="sale_img">
               <img
-                src="img/bouqet-7.jpg"
+                src="img/content/bouqet-7.jpg"
                 width="590"
                 height="391"
                 alt="Сборка букета в крафтовой бумаге"
@@ -158,29 +204,57 @@
       </section>
       <section class="steps">
         <div class="wrapper">
-          <h2 class="steps_title">4 шага к идеальному букету</h2>
+          <h2 class="steps_title title">4 шага к идеальному букету</h2>
           <ul class="steps_list">
             <li class="steps_item">
-              <h3 class="steps_item-title _icon-order">Заказ</h3>
+              <img
+                src="img/icons/order.svg"
+                width="66"
+                height="52"
+                alt="Иконка изображающая компьютер"
+                class="steps_item-images"
+              />
+              <h3 class="steps_item-title">Заказ</h3>
               <p class="steps_item-text">
                 Выбирите понравившейся букет из каталога и оформите заказ
               </p>
             </li>
             <li class="steps_item">
-              <h3 class="steps_item-title _icon-peple">Уточнение</h3>
+              <img
+                src="img/icons/peple.svg"
+                width="37"
+                height="52"
+                alt="Иконка изображающая человека"
+                class="steps_item-images"
+              />
+              <h3 class="steps_item-title">Уточнение деталей</h3>
               <p class="steps_item-text">
                 Наш флорист позвонит вам после оформления заказа, чтобы уточнить
                 детали
               </p>
             </li>
             <li class="steps_item">
-              <h3 class="steps_item-title _icon-pay">Оплата</h3>
+              <img
+                src="img/icons/pay.svg"
+                width="70"
+                height="52"
+                alt="Иконка изображающая пластиковую карточку"
+                class="steps_item-images"
+              />
+              <h3 class="steps_item-title">Оплата</h3>
               <p class="steps_item-text">
                 Оплатить заказ можно онлайн на сайте или при получении
               </p>
             </li>
             <li class="steps_item">
-              <h3 class="steps_item-title _icon-delivery">Доставка</h3>
+              <img
+                src="img/icons/delivery.svg"
+                width="82"
+                height="52"
+                alt="Иконка изображающая доставку"
+                class="steps_item-images"
+              />
+              <h3 class="steps_item-title">Доставка</h3>
               <p class="steps_item-text">
                 Курьер позвонит за час до прибытия и доставит заказ вовремя
               </p>
@@ -192,52 +266,67 @@
         <div class="wrapper">
           <div class="news_body">
             <div class="news_item">
-              <h2 class="news_title">Следите за нашими новостями</h2>
+              <h2 class="news_title title">Следите за нашими новостями</h2>
               <p class="news_text">
-                Подписывайтесь на наши соцсети и узнавайте о новинках и акциях
-                первым.
+                Подписывайтесь на наши соцсети и узнавайте о&nbsp;новинках и
+                акциях первым.
               </p>
               <div class="news_social social">
                 <a href="#" target="_blank">
-                  <span class="_icon-instagram"></span>
-                  <span class="sr-only">Наша страница в&nbsp;Instagram</span>
+                  <img
+                    src="img/icons/instagram.svg"
+                    alt="Наша страница в Instagram"
+                    width="20"
+                    height="20"
+                  />
                 </a>
                 <a href="#" target="_blank">
-                  <span class="sr-only">Наша страница в&nbsp;Instagram</span>
-                  <span class="_icon-facebook"></span>
+                  <img
+                    src="img/icons/facebook.svg"
+                    alt="Наша страница в Facebook"
+                    width="12"
+                    height="20"
+                  />
                 </a>
                 <a href="#" target="_blank">
-                  <span class="sr-only">Наша страница в&nbsp;Instagram</span>
-                  <span class="_icon-twitter"></span>
+                  <img
+                    src="img/icons/twitter.svg"
+                    alt="Наша страница в Twitter"
+                    width="26"
+                    height="20"
+                  />
                 </a>
               </div>
             </div>
             <div class="news_img">
               <img
-                src="img/bouqet-8.jpg"
+                src="img/content/bouqet-8.jpg"
                 width="285"
                 height="220"
                 alt="Букет с розовыми розами"
+                class="news_img-left-top"
               />
               <img
-                src="img/bouqet-9.jpg"
+                src="img/content/bouqet-9.jpg"
                 width="285"
                 height="220"
                 alt="Букет с белыми розами"
+                class="news_img-left-bottom"
               />
               <img
-                src="img/bouqet-10.jpg"
+                src="img/content/bouqet-10.jpg"
                 width="387"
                 height="460"
                 alt="Букет с розовыми гвоздиками"
+                class="news_img-right"
               />
             </div>
           </div>
         </div>
       </section>
       <section class="review">
-        <div class="wrapper">
-          <h2 class="review_title">Отзывы</h2>
+        <div class="wrapper wrapper__border">
+          <h2 class="review_title title">Отзывы</h2>
           <div class="review_list">
             <blockquote class="review_item">
               <p class="review_text">
@@ -266,12 +355,12 @@
       <section class="contacts">
         <div class="wrapper">
           <div class="contacts_body">
-            <h2 class="contacts_title">Мы ждем вас</h2>
+            <h2 class="contacts_title title">Мы ждем вас</h2>
             <ul class="contacts_list">
               <li class="contacts_item">
                 <p class="contacts_item-title">Приходите к нам:</p>
                 <address class="contacts_item-text">
-                  Санкт-Петербург, ул. Большая Конюшенная, 19
+                  Санкт-Петербург, ул.&nbsp;Большая Конюшенная, 19
                 </address>
               </li>
               <li class="contacts_item">
@@ -297,38 +386,55 @@
     </main>
     <footer class="footer">
       <div class="wrapper">
-        <div class="footer_logo">
-          <a href="#"
-            ><img src="img/footer-logo.svg" alt="Главная страница"
-          /></a>
-        </div>
-        <div>
-          <ul class="footer_menu menu">
-            <li class="menu_item"><a href="" class="menu_link">Каталог</a></li>
-            <li class="menu_item">
-              <a href="" class="menu_link">Доставка и оплата</a>
-            </li>
-            <li class="menu_item"><a href="" class="menu_link">Отзывы</a></li>
-            <li class="menu_item">
-              <a href="" class="menu_link">Спецпредложения</a>
-            </li>
-            <li class="menu_item"><a href="" class="menu_link">Контакты</a></li>
-            <li class="menu_item"><a href="" class="menu_link">Корзина</a></li>
-          </ul>
-        </div>
-        <div class="footer_social social">
-          <a href="#" target="_blank">
-            <span class="_icon-instagram"></span>
-            <span class="sr-only">Наша страница в&nbsp;Instagram</span>
-          </a>
-          <a href="#" target="_blank">
-            <span class="sr-only">Наша страница в&nbsp;Instagram</span>
-            <span class="_icon-facebook"></span>
-          </a>
-          <a href="#" target="_blank">
-            <span class="sr-only">Наша страница в&nbsp;Instagram</span>
-            <span class="_icon-twitter"></span>
-          </a>
+        <div class="footer_body">
+          <div class="footer_logo logo">
+            <a href="#"
+              ><img src="img/icons/footer-logo.svg" alt="Главная страница"
+            /></a>
+          </div>
+          <div>
+            <ul class="footer_menu menu">
+              <li class="menu_item">
+                <a href="" class="menu_link">Каталог</a>
+              </li>
+              <li class="menu_item">
+                <a href="" class="menu_link">Доставка и оплата</a>
+              </li>
+              <li class="menu_item"><a href="" class="menu_link">Отзывы</a></li>
+              <li class="menu_item">
+                <a href="" class="menu_link">Спецпредложения</a>
+              </li>
+              <li class="menu_item">
+                <a href="" class="menu_link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_social social">
+            <a href="#" target="_blank">
+              <img
+                src="img/icons/instagram-white.svg"
+                alt="Наша страница в Instagram"
+                width="20"
+                height="20"
+              />
+            </a>
+            <a href="#" target="_blank">
+              <img
+                src="img/icons/facebook-white.svg"
+                alt="Наша страница в Facebook"
+                width="12"
+                height="20"
+              />
+            </a>
+            <a href="#" target="_blank">
+              <img
+                src="img/icons/twitter-white.svg"
+                alt="Наша страница в Twitter"
+                width="26"
+                height="20"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
