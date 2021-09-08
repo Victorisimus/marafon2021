@@ -413,7 +413,7 @@ a {
 
 .catalog_item {
   width: 387px;
-  height: 442px;
+  min-height: 442px;
   color: #ffffff;
   border-radius: 10px;
 }
@@ -461,14 +461,20 @@ a {
 
 .item__wedding {
   background-image: url("../img/content/bouqet-4.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .item__pion {
   background-image: url("../img/content/bouqet-5.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .item__booket {
   background-image: url("../img/content/bouqet-6.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .sale {
@@ -672,11 +678,11 @@ a {
 }
 
 .contacts {
-  min-height: 590px;
   background-image: url("../img/content/bg-map.jpg");
   background-size: cover;
   background-position: center;
   padding-top: 52px;
+  padding-bottom: 72px;
 }
 
 .contacts_body {
@@ -737,6 +743,8 @@ a {
       -ms-flex-align: center;
           align-items: center;
   min-height: 97px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer_body {
