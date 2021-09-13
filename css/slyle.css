@@ -70,7 +70,7 @@ a {
   transition: width 0.3s ease-in-out;
 }
 
-.menu_link:hover {
+.menu_link:hover, .menu_link:focus {
   color: #647680;
 }
 
@@ -95,7 +95,7 @@ a {
   transition: background-color 0.3s ease-in-out;
 }
 
-.btn:hover {
+.btn:focus, .btn:hover {
   background-color: #647680;
 }
 
@@ -131,6 +131,16 @@ a {
 
 .social_link:hover:after, .social_link:focus:after {
   width: 100%;
+}
+
+.social_link:focus svg {
+  fill: #647680;
+  outline: none;
+}
+
+.social_img:focus {
+  fill: #647680;
+  stroke: #647680;
 }
 
 .social_img:hover {
@@ -398,6 +408,15 @@ a {
   cursor: pointer;
 }
 
+.control_btn:focus {
+  background-color: #647680;
+  border-radius: 16px;
+}
+
+.control_btn:focus svg {
+  fill: #ffffff;
+}
+
 .catalog {
   margin-bottom: 80px;
 }
@@ -455,7 +474,7 @@ a {
   transition: color 0.3s ease-in-out;
 }
 
-.catalog_overlay:hover {
+.catalog_overlay:focus, .catalog_overlay:hover {
   background: #ae7c78;
   color: #647680;
 }
